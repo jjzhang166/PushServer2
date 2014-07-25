@@ -1,0 +1,32 @@
+extends layout
+block content
+    h1= title
+    p Welcome to our test
+    // Wrapper
+    #wrapper
+        #userInfo
+            h2 User Info
+            p
+                strong RegisterID:
+                | <span id='RegisterID'></span>
+                br
+                strong PhoneNumber:
+                | <span id='PhoneNumber'></span>
+                br
+                strong PhoneID:
+                | <span id='PhoneID'></span>
+        // USER LIST
+        h2 User List
+        #userList
+            table
+                thead
+                    th Rgister_id
+                    th Phone_Number
+                    th Phone_Device_id
+                tbody
+        // /USER LIST
+                // USER INFO
+
+        // /ADD USER
+        // /USER INFO
+    // /WRAPPER
